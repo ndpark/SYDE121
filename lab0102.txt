@@ -1,0 +1,37 @@
+Origional Output
+
+i = 3 squared = 9
+i = 4 squared = 16
+i = 5 squared = 25
+i = 6 squared = 36
+i = 7 squared = 49
+i = 8 squared = 64
+i = 9 squared = 81
+
+Fun!
+Press any key continue...
+
+2A) 10 is now included as an accepted value for i and is therefore run through the process of listing the numbers and it's value when squared.
+2b) There are no spaces between each outputs. All the outputs are displayed in a single line.
+2c) Instead of the i value increasing by one, it increses by two with each repetition
+
+2d)
+13	19	N:\SYDE121\Lab 0101\lab0101.cpp	[Error] expected primary-expression before ')' token
+
+A + is an arithmetic operator, whereas ++ is an increment operator. This means when there is only + it will look for a "primary expression" 
+(aka a second value) to add. The ++ is used to signify that it should increment by one without needing a value to add to i.
+
+2e) 
+13	2	N:\SYDE121\Lab 0101\lab0101.cpp	[Error] expected ',' or ';' before 'for'
+13	20	N:\SYDE121\Lab 0101\lab0101.cpp	[Error] expected ';' before ')' token
+
+The semicolon is required to close the line, which then executes the for loop. Since the line is not closed, the for loop does not execute and therefore
+we got an error message. 
+
+
+
+2f)
+6	21	N:\SYDE121\Lab 0101\lab0101.cpp	[Error] iostream: No such file or directory
+
+The space between "<" and "iostream" is added to the front of the iostream directory name, making C++ call upon " iostream". Since " iostream" does 
+not exist in the directory, the file being called upon couldn't be found and the compiler gave us the errror.

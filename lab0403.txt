@@ -1,0 +1,11 @@
+a)What is the largest value of n that the program can correctly handle?
+
+The largest value of n the program can correctly handle was 12. 13! = 6,227,020,800 but the maximum value of unsigned int is 4,292,967,295. 
+
+b)What happens when the program breaks?
+
+The numbers generated were no longer accurate. 
+
+c) What is the largest value of n that program can correctly handle if 'unsigned int' was changed to 'int'
+
+The largest value of n the program can correctly handle was also 12. 13! = 6,227,020,800 but the maximum value of int is 2,147,483,647. 
